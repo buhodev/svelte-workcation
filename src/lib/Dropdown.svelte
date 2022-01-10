@@ -1,6 +1,8 @@
 <script>
   export let buttonHasFocus = false;
   export let isOpen = false;
+  let className;
+  export {className as class};
 
   function toggle() {
     isOpen = !isOpen
@@ -16,7 +18,7 @@
 
 <svelte:window on:keydown={onEscape} />
 
-<div class="relative">
+<div class="relative {className}">
   <button on:click="{toggle}" type="button" class="block focus:outline-none" on:focus="{() => buttonHasFocus = true}" on:blur="{() => buttonHasFocus = false}">
     <slot name="trigger" hasFocus="{buttonHasFocus}" isOpen="{isOpen}"></slot>
   </button>
