@@ -1,24 +1,22 @@
-# create-svelte
+# Svelte Workcation
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+[Live preview](https://svelte-workcation.vercel.app/)
 
-## Creating a project
+This project is the Svelte adaptation of [Workcation](https://github.com/adamwathan/workcation) by [Adam Wathan](https://github.com/adamwathan).
 
-If you're seeing this, you've probably already done this step. Congrats!
+> It's a fun Airbnb-inspired UI that includes a bunch of neat ideas which make it perfect for teaching people how to build things with Tailwind.
 
+![](/static/workcation-screenshot.png)
+
+
+## Project setup
 ```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
+npm install # or `pnpm install` or `yarn`
 ```
-
-> Note: the `@next` is temporary
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
 ```bash
 npm run dev
