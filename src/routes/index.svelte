@@ -133,6 +133,10 @@
   ]
 </script>
 
+<svelte:head>
+  <title>Workcation</title>
+</svelte:head>
+
 <div id="app" class="min-h-screen bg-gray-200 antialiased xl:flex xl:flex-col xl:h-screen">
   <SiteHeader class="xl:flex-shrink-0"/>
   <div class="xl:flex-1 xl:flex xl:overflow-y-hidden">
