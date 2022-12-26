@@ -8,8 +8,8 @@ This project is the Svelte adaptation of [Workcation](https://github.com/adamwat
 
 ![](/static/workcation-screenshot.png)
 
-
 ## Project setup
+
 ```bash
 npm install # or `pnpm install` or `yarn`
 ```
