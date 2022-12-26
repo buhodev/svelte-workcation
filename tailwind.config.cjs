@@ -1,6 +1,7 @@
-const config = {
-  content: ["./src/**/*.{html,js,svelte,ts}"],
+const { fontFamily } = require('tailwindcss/defaultTheme');
 
+module.exports = {
+  content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
     extend: {
       spacing: {
@@ -9,11 +10,12 @@ const config = {
       },
       padding: {
         '5/6': '83.3333333%'
-      }
+      },
+      fontFamily: {
+				sans: ['Inter', ...fontFamily.sans]
+			}
     },
   },
 
   plugins: [require('@tailwindcss/forms')],
 };
-
-module.exports = config;
